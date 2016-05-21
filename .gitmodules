@@ -1,0 +1,3 @@
+[submodule ".emacs.d/slime"]
+	path = .emacs.d/slime
+	url = https://github.com/slime/slime
