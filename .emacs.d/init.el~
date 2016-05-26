@@ -16,9 +16,5 @@
 (require 'markdown-mode)
 (require 'cmake-mode)
 (require 'web-mode)
-
 (add-hook 'after-init-hook #'global-flycheck-mode)
-
 (require 'flycheck-google-cpplint)
-(add-hook 'c-mode-hook 'flymake-google-cpplint-load)
-(add-hook 'c++-mode-hook 'flymake-google-cpplint-load)
